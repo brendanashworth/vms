@@ -6,3 +6,18 @@
 As of right now, the following are available (please PR to add more!):
 
 * FreeBSD 10.0
+
+## Provisioning
+Go into the directory you want (with Vagrant installed), and run the following:
+
+```sh
+$ vagrant up
+```
+
+Done. You can then run:
+
+```sh
+$ vagrant ssh
+```
+
+To SSH into your virtual machine. Enjoy!
