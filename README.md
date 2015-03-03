@@ -21,3 +21,6 @@ $ vagrant ssh
 ```
 
 To SSH into your virtual machine. Enjoy!
+
+## Developing
+All of these images should have the tools necessary to build [io.js](https://github.com/iojs/io.js), which was the intended purpose - however, mostly those are only simple developer tools. Pull requests for more tools that have nothing to do with io.js will be welcomed with a warm heart.
