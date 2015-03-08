@@ -6,6 +6,7 @@
 As of right now, the following are available (please PR to add more!):
 
 * FreeBSD 10.0
+* Ubuntu 14.04
 
 ## Provisioning
 Go into the directory you want (with Vagrant installed), and run the following:
