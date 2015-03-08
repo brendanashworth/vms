@@ -6,9 +6,9 @@ sudo pkg install git         \
                  gmake       \
 \ # C / C++ compilers
                  lang/gcc49  \
-		 clang36     \
+                 clang36     \
 \ # back-port linux-y programs
-		 libexecinfo
+                 libexecinfo
 
 # to get g++ and gcc, we need to symbolic link to gcc49
 sudo ln -s $(which gcc49) /usr/local/bin/g++
