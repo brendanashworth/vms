@@ -5,6 +5,7 @@
 ## Available Platforms
 As of right now, the following are available (please PR to add more!):
 
+* CentOS 7.0
 * FreeBSD 10.0
 * Ubuntu 14.04
 
