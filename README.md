@@ -7,6 +7,7 @@ As of right now, the following are available (please PR to add more!):
 
 * CentOS 7.0
 * Debian 7.6
+* Fedora 20
 * FreeBSD 10.0
 * Ubuntu 12.04
 * Ubuntu 14.04
