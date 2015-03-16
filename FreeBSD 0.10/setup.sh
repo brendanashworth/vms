@@ -1,14 +1,13 @@
 #!/bin/sh
 
 # package installs
-sudo pkg install git         \
-                 python      \
-                 gmake       \
-\ # C / C++ compilers
-                 lang/gcc49  \
-                 clang36     \
-\ # back-port linux-y programs
-                 libexecinfo
+sudo pkg install git
+sudo pkg install python
+sudo pkg install gmake
+# C/C++ compiler
+sudo pkg install clang36
+# C library
+sudo pkg install libexecinfo
 
 # to get g++ and gcc, we need to symbolic link to gcc49
 sudo ln -s $(which gcc49) /usr/local/bin/g++
